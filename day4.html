@@ -1,0 +1,44 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Header Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            position: sticky;
+            top: 0;
+            background-color: #000000;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            z-index: 1000; /* Ensure it stays above other content */
+        }
+        .content {
+            padding: 20px;
+            height: 2000px; /* Just for demonstration, to create scrollable content */
+        }
+        h1 {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>bitch</h1>
+    </div>
+    <div class="content">
+        <h2>whoever move first is gay</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, mollitia. Rerum reiciendis in facilis perferendis molestias, officia aperiam, iure modi voluptatum earum pariatur quo commodi debitis dolorem. Deserunt, ad voluptates.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>Keep scrolling to see more content!</p>
+        <!-- Add more content as needed -->
+    </div>
+</body>
+</html>
