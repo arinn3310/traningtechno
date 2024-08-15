@@ -1,57 +1,177 @@
-// conditional statement
-// if else,switch,ternary operators
-// functions
-// array,objects
-// loops
+// var num1 = 20;
 
-// let count = 20;
+// console.log("Hello Techno");
+
+// alert("Hello Techno");
+
+// var , let , const
+
+// primitive types - string , number , boolean , undefined , symbol , bigint 
+// reference or object typed data types -- array , objects , date , null
+
+// var firstVar = "i m a student'";
+// console.log(firstVar)
+// console.log(typeof firstVar);
 
 
-//  if (count==20){
+// var firstVar = -20.01;
+// console.log(firstVar);
+// console.log(typeof firstVar);
 
-//     console.log("the count is 20");
-//  }else{
 
-//     console.log("the count is not 20");
-//  }
+// var firstVar = false;
+// console.log(firstVar);
+// console.log(typeof firstVar);
 
-// if(count==20){
-//     console.log("the count is 20");
-// }else if(count > 20){
-//     console.log("the count is greater than 20");
-// }else{
-//     console.log("the count is less than 20");
+
+// var firstVar = undefined;
+// console.log(firstVar);
+// console.log(typeof firstVar);
+
+
+// var firstVar = [20,30,"Hello",true,undefined];
+// console.log(firstVar);
+// console.log(typeof firstVar);
+
+// var firstVar = null;
+// console.log(firstVar);
+// console.log(typeof firstVar);
+
+// var firstVar = {
+//     firstName : "arin",
+//     lastName : "upadhyay"
+// };
+// console.log(firstVar);
+// console.log(typeof firstVar);
+
+// var date = new Date();
+// console.log(date);
+// console.log(typeof date)
+
+// [{},{},{}] - json
+
+// var firstVar = "Hello Techno";
+// firstVar = [20,30];
+// firstVar = {
+//     firstName : "upadhyay",
+//     lastName : "arin"
+// };
+
+// firstVar = true;
+
+// console.log(firstVar);
+
+// var , let , const
+
+
+
+// var num1 = 30;
+
+
+// var num1 = {
+//     firstName : "arinn"
 // }
 
-
-// // for taking input from user we use promt
-
-// let firstnumber = prompt("enter the first number");
-
-// console.log(firstnumber);
+// console.log(num1)
 
 
-// promt the user to enter their username and Pass
-// if username is admin and password is 123 in numbers
-// if both connection is true then display auth successfull else auth failed
+// let num2 = 20;
+
+var num1 = 20;
+
+var num1 = 30;
+// variable defined with var can be redecleared or can be re assigned
 
 
-//   let username = prompt("Enter your username:");
-//  let password = prompt("Enter your password:");
+let num2 = 50;
+ num2 = 100;
 
-// //   if (username === "admin" && password === "123") {
-// //     alert("Auth successful!");
+// variable defined with let cannot be redecleared but can be re assigned
 
-// //   }else{
-// //     alert("Auth failed! Try again.");
-// //   
+// const num3 = 100;
+// num3 = 1000;
 
-// if(username === "admin"){
+// variable defined with const cannot be redecleared or re assigned
 
-// }
+// Operators
 
-// ternary operator
+// Arithmatic operators
 
-let COUNT = 20;
+// + ,  - , * , /
 
-COUNT=== 20 ? console.log("the count is 20") : COUNT > 20 ? console.log("the count is grtr then 20") : console.log("the count is less then 20");
+let a = 30;
+let b = 20;
+
+let add = a + b;
+let  sub = a-b;
+let mul = a*b;
+let div = a/b
+// console.log(add);
+// console.log(sub);
+// console.log(mul);
+// console.log(div);
+
+let firstName = "arin";
+let lastName = "upadhyay";
+
+// console.log(firstName+ " " +lastName);
+
+// console.log(a**b);
+// console.log(a%b);
+
+// console.log(5/"5");
+// console.log("5"/5);
+
+// Addition Assignements
+
+let x = 5;
+
+// x = x + 10;
+x += 10;
+
+// console.log(x);
+
+let str = "arin";
+let conStr = +str;
+// console.log( conStr);
+// console.log(typeof conStr);
+
+// console.log("arin" - 10);
+
+let str1 = "5";
+let str2 = +str1;
+
+// console.log(5+"5");
+
+
+let y = 10;
+// y -= 3;
+// y *= 3;
+// y /= 3;
+// y %= 3;
+// y **= 3;
+
+// console.log(y);
+
+// Comparision operator
+
+let num4 = 10;
+let num5 = "10";
+
+console.log(num4 == num5);
+console.log(num4 === num5);
+
+
+// Logical operator
+
+// AND(&&) OR(||)
+
+let isLoggedIn = 0; 
+let isAdmin = 10; 
+
+console.log("Is the user logged in and an admin?", isLoggedIn && isAdmin);
+
+console.log(10 || 1000);
+
+
+
