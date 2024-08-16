@@ -83,7 +83,7 @@
  // var mum1 = 20;
  
  // var num1 = 30;
- //  variable define with var can be redeclared or reassingned 
+ //  variable define with var can be redeclare or reassigned 
  
  // let num2 = 40;
  //  num2 = 100;
