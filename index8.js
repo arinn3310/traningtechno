@@ -137,9 +137,9 @@
  //y/=3;
  //y%=3;
  //y**=3;
- let y=10;
- console.log(y)
+//  let y=10;
+//  console.log(y)
 
-let num4 = 10;
-let num5 = 20;
-console.log(num4 == num5);
+// let num4 = 10;
+// let num5 = 20;
+// console.log(num4 == num5);

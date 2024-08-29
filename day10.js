@@ -183,9 +183,9 @@
 
 // for each
 
-let result = arr.foreach((item , i )=>{
-    console.log(i)
-    // return item;
-})
+// let result = arr.foreach((item , i )=>{
+//     console.log(i)
+//     // return item;
+// })
 
-console.log(result);
+// console.log(result);
